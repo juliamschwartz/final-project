@@ -1,0 +1,49 @@
++<!DOCTYPE HTML>
++<html>
++<head>
+<link href="../style.css" rel="stylesheet" type="text/css">
++<meta charset="UTF-8">
++<!-- TemplateBeginEditable name="doctitle" -->
++<title>Seeing Double Website</title>
++<!-- TemplateEndEditable -->
++<!-- TemplateBeginEditable name="head" -->
++<!-- TemplateEndEditable -->
++</head>
++
++<body><table>
++  <tr>
++    <td>[Banner]</td>
++  </tr>
++  <tr>
++    <td><p><a href="../index.html">Home</a> | <a href="../twins-today/">Twins Today </a>|<a href="../twins-on-television/"> Twins on Television </a>| <a href="../history/index.html">History </a>| <a href="../famous-literature/index.html">Famous Literature </a>|<a href="../about-me/index.html"> About Me</a></p></td>
++  </tr>
++</table><table>
++  <tr>
++    <td><ul>
+  <li>Twin Days</li></ul>
+  <ul>
+    <li>Full House</li>
+    <li>Parent Trap  </li>
+  </ul>
+  <ul>
+    <li>Early Fascination</li>
+    <li>Identical vs Fratneral  </li>
+  </ul>
+  <ul>
+    <li>Twelfth Night</li>
+    <li>Harry Potter</li>
+  </ul>
+  <p>&nbsp;</p></td>
++    <td><!-- TemplateBeginEditable name="Page Content" -->[Page Specific Content]<!-- TemplateEndEditable --></td>
++  </tr>
++</table><table>
++  <tr>
++    <td><p>Table #1</p>
+  <p>&nbsp;</p></td>
++    <td><p>Table #2</p>
+  <p>&nbsp;</p></td>
++    <td>[Reference Links]</td>
++  </tr>
++</table>
+</body>
++</html>
