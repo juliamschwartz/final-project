@@ -8,50 +8,74 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-<!-- TemplateParam name="twins-today-secondarynav" type="boolean" value="false" -->
 <!-- TemplateParam name="twins-on-tv-secondary-nav" type="boolean" value="false" -->
 <!-- TemplateParam name="need-to-know-secondary-nav" type="boolean" value="false" -->
 <!-- TemplateParam name="famous-literature-secondary-nav" type="boolean" value="false" -->
+<!-- TemplateParam name="twin-days-secondarynav" type="boolean" value="false" -->
 </head>
 
-<body><table>
+<body>
+<table>
   <tr>
     <td><img src="../photos/banner-1" width="1000" height="200" alt=""/></td>
   </tr>
   <tr>
-    <td><p><a href="../index.html">Home</a> | <a href="../twins-today/">Twins Today </a>|<a href="../twins-on-television/"> Twins on Television </a>| <a href="../need-to-know/index.html">Need to Know</a>| <a href="../famous-literature/index.html">Famous Literature </a>|<a href="../about-me/index.html"> About Me</a></p></td>
+    <td class="primarynav"><p><a href="../index.html">Home  </a><a href="../twins-today/">Twins Today </a><a href="../twins-on-television/"> Twins on Television </a> <a href="../need-to-know/index.html">Need to Know</a><a href="../famous-literature/index.html"> Famous Literature </a><a href="../about-me/index.html">About Me</a></p></td>
   </tr>
-</table><table>
+</table>
+<table>
   <tr>
-    <td class="secondarynav"><ul>
-  <li><!-- TemplateBeginIf cond="_document['twins-today-secondarynav']" --><a href="../twins-today/twin-days.html">Twin Days</a><!-- TemplateEndIf --></li></ul>
+    <td class="secondarynav">
+	
+	
+	 <!-- TemplateBeginIf cond="_document['twins-on-tv-secondary-nav']" -->
       <ul>
-        <!-- TemplateBeginIf cond="_document['twins-on-tv-secondary-nav']" -->
-          <li><a href="../twins-on-television/full-house.html">Full House</a></li>
-          <li><a href="../twins-on-television/parent-trap.html">Parent Trap</a></li>
+       
+        <li><a href="../twins-on-television/full-house.html">Full House</a></li>
+        <li><a href="../twins-on-television/parent-trap.html">Parent Trap</a></li>
+     
+      </ul>
+         <!-- TemplateEndIf -->
+         
+        <!-- TemplateBeginIf cond="_document['need-to-know-secondary-nav']" -->  
+         
+      <ul>
+       
+        <li><a href="../need-to-know/early-fascination.html">Early Fascination</a></li>
+        <li><a href="../need-to-know/identical-vs-fraternal.html">Identical vs Fratneral</a></li>
+       
+      </ul>
+       <!-- TemplateEndIf -->
+      
+      <!-- TemplateBeginIf cond="_document['famous-literature-secondary-nav']" -->
+      <ul>
+       
+        <li><a href="../famous-literature/twelfth-night.html">Twelfth Night</a></li>
+        <li><a href="../famous-literature/harry-potter.html">Harry Potter</a></li>
+     
+      </ul>
         <!-- TemplateEndIf -->
+         
+         
+      <!-- TemplateBeginIf cond="_document['twin-days-secondarynav']" -->
+      <ul>
+        <li><a href="../twins-today/twin-days.html">Twin Days</a>
+        </li>
       </ul>
       <ul>
-        <!-- TemplateBeginIf cond="_document['need-to-know-secondary-nav']" -->
-          <li><a href="../need-to-know/early-fascination.html">Early Fascination</a></li>
-          <li><a href="../need-to-know/identical-vs-fraternal.html">Identical vs Fratneral</a></li>
-        <!-- TemplateEndIf -->
+        
+        
       </ul>
-      <ul>
-        <!-- TemplateBeginIf cond="_document['famous-literature-secondary-nav']" -->
-          <li><a href="../famous-literature/twelfth-night.html">Twelfth Night</a></li>
-          <li><a href="../famous-literature/harry-potter.html">Harry Potter</a></li>
-        <!-- TemplateEndIf -->
-      </ul>
-<p>&nbsp;</p></td>
+          <!-- TemplateEndIf --></td>
     <td class="content"><!-- TemplateBeginEditable name="Page Content" -->[Page Specific Content]<!-- TemplateEndEditable --></td>
   </tr>
-</table><table>
+</table>
+<table>
   <tr>
     <td><p>Table #1</p>
- <p>&nbsp;</p></td>
+      <p>&nbsp;</p></td>
     <td><p>Table #2</p>
-  <p>&nbsp;</p></td>
+      <p>&nbsp;</p></td>
     <td>[Reference Links]</td>
   </tr>
 </table>

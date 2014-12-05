@@ -11,3 +11,17 @@ body {
 	color: #333333;
 	background-color: #EF6972;
 }
+.primarynav a {
+	background-color: #FFA58E;
+	height: 5px;
+	width: 5px;
+	margin: 10px;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.primarynav a:hover {
+	background-color: #FEFF86;
+}
