@@ -25,3 +25,8 @@ body {
 .primarynav a:hover {
 	background-color: #FEFF86;
 }
+.image {
+	margin: 10px;
+	padding: 10px;
+	border: 10px solid #FFE174;
+}
