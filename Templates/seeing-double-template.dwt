@@ -20,7 +20,7 @@
     <td><img src="../photos/banner" width="1000" height="200"></td>
   </tr>
   <tr>
-    <td class="primarynav"><p><a href="../index.html">Home  </a><a href="../twins-today/">Twins Today </a><a href="../twins-on-television/"> Twins on Television </a> <a href="../need-to-know/index.html">Need to Know</a><a href="../famous-literature/index.html"> Famous Literature </a><a href="../about-me/index.html">About Me</a></p></td>
+    <td class="primarynav"><p><a href="../index.html">Home  </a><a href="../about-me/index.html">About Me</a><a href="../twins-today/">Twins Today </a><a href="../twins-on-television/"> Twins on Television </a> <a href="../need-to-know/index.html">Need to Know</a><a href="../famous-literature/index.html"> Famous Literature</a></p></td>
   </tr>
 </table>
 <table>
